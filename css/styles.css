@@ -245,11 +245,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color:rgb(247, 247, 239);
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: black;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -518,9 +518,9 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .display-3 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -598,7 +598,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 480px;
   height: auto;
   border: rgb(51, 51, 51) solid 2px;
   border-radius: 10px;
@@ -2847,12 +2847,11 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #1e30f3;
-  --bs-btn-border-color: #1e30f3;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1a29cf;
-  --bs-btn-hover-border-color: #1826c2;
+  --bs-btn-color: rgb(51, 51, 51);
+  --bs-btn-bg: rgb(247, 247, 239);
+  --bs-btn-hover-color: rgb(247, 247, 239);
+  --bs-btn-hover-bg: rgb(51, 51, 51);
+  --bs-btn-hover-border-color: white;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #1826c2;
@@ -3102,15 +3101,6 @@ textarea.form-control-lg {
 }
 
 .btn-outline-dark {
-  --bs-btn-color: #212529;
-  --bs-btn-border-color: #212529;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #212529;
-  --bs-btn-hover-border-color: #212529;
-  --bs-btn-focus-shadow-rgb: 33, 37, 41;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #212529;
-  --bs-btn-active-border-color: #212529;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #212529;
   --bs-btn-disabled-bg: transparent;
@@ -8189,17 +8179,17 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(247, 247, 239) !important;
 }
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(247, 247, 239) !important;
 }
 
 .text-success {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(247, 247, 239) !important;
 }
 
 .text-info {
@@ -8234,7 +8224,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(51, 51, 51) !important;
 }
 
 .text-body {
@@ -8244,7 +8234,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: rgba(247, 247, 239) !important;
 }
 
 .text-black-50 {
@@ -8254,7 +8244,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(247, 247, 239) !important;
 }
 
 .text-reset {
@@ -8279,8 +8269,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgb(51, 51, 51) !important;
 }
 
 .bg-secondary {
@@ -11559,8 +11548,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: rgb(247, 247, 239);
 }
 
 .text-gradient {
@@ -11607,8 +11595,8 @@ html {
   top: 4vw;
 }
 .profile .dots-1 svg {
-  fill: rgb(247, 247, 239);
-  /* fill: rgb(51, 51, 51); */
+  /* fill: rgb(247, 247, 239); */
+  fill: rgb(51, 51, 51);
 }
 .profile .dots-2 {
   position: absolute;
@@ -11617,7 +11605,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: rgb(247, 247, 239);
 }
 .profile .dots-3 {
   position: absolute;
@@ -11626,8 +11614,8 @@ html {
   bottom: 6.05vw;
 }
 .profile .dots-3 svg {
-  fill: rgb(247, 247, 239);
-  /* fill: rgb(51, 51, 51); */
+  /* fill: rgb(247, 247, 239); */
+  fill: rgb(51, 51, 51);
 }
 .profile .dots-4 {
   position: absolute;
@@ -11636,7 +11624,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: rgb(247, 247, 239);
 }
 
 @media (min-width: 576px) {
